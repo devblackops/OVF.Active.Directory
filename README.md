@@ -34,3 +34,6 @@ basic operation of an Active Directory domain controller. These Pester tests hav
 * DFS
   * Dfs service status
   * DFSR service status
+
+## Example Output
+![Example Pester output](/Media/example.png)
