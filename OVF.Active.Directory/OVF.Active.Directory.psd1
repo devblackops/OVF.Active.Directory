@@ -95,19 +95,22 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        # Tags = @()
+        Tags = @('OVF', 'Pester', 'Windows', 'Server', 'Operation', 'Validation', 'Active', 'Directory', 'ActiveDirectory')
 
         # A URL to the license for this module.
-        # LicenseUri = ''
+        LicenseUri = 'https://raw.githubusercontent.com/devblackops/OVF.Active.Directory/master/LICENSE'
 
         # A URL to the main website for this project.
-        # ProjectUri = ''
+        ProjectUri = 'https://github.com/devblackops/OVF.Active.Directory'
 
         # A URL to an icon representing this module.
         # IconUri = ''
 
         # ReleaseNotes of this module
-        # ReleaseNotes = ''
+        ReleaseNotes = '
+## 1.0.0 (2016-08-14)
+* Initial release
+'
 
     } # End of PSData hashtable
 
