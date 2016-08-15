@@ -44,7 +44,7 @@ function Resolve-Module {
 Get-PackageProvider -Name Nuget -ForceBootstrap | Out-Null
 Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
 
-'BuildHelpers', 'psake' | Resolve-Module
+'BuildHelpers', 'psake', 'poshspec' | Resolve-Module
 
 Set-BuildEnvironment
 
