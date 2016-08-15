@@ -34,7 +34,7 @@ describe 'Active Directory Web Services' {
     }
 }
 
-descibe 'LDAP' {
+describe 'LDAP' {
     context 'Availbility' {
         TcpPort localhost 389 TcpTestSucceeded { Should Be $true } 
     }
